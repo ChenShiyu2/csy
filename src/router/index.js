@@ -9,6 +9,7 @@ export default new Router({
         {
             path: '/',
             name: 'HelloWorld',
+            hash: '',
             component: HelloWorld
         }
     ]
