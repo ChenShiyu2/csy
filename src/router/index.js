@@ -7,10 +7,8 @@ Vue.use(Router)
 export default new Router({
     routes: [
         {
-            path: '/dist/index.html',
-            // path: '/',
+            path: '/',
             name: 'HelloWorld',
-            alias: '/',
             component: HelloWorld
         }
     ]
